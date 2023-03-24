@@ -54,7 +54,7 @@ static const char 	*http_request(int argc, const char **argv);
  *                       /sbin/nologin and the user tries to log in to the Linux system directly,
  *                       the /sbin/nologin shell closes the connection.
  */
-enum nss_status _nss_ftp_accounts_manager_getpwnam_r(
+enum nss_status _nss_http_getpwnam_r(
 	const char *name,
 	/**
 	 * struct passwd {
@@ -148,7 +148,7 @@ enum nss_status _nss_ftp_accounts_manager_getpwnam_r(
  *     - EXPIRE               : The date of expiration of the account, expressed as the number of
  *                              days since Jan 1, 1970 (Unix time).
  */
-enum nss_status _nss_ftp_accounts_manager_getspnam_r(
+enum nss_status _nss_http_getspnam_r(
 	const char *name,
 	/**
 	 * struct spwd {
