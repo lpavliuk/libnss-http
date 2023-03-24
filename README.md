@@ -1,6 +1,6 @@
 # libnss HTTP Request
 
-The custom NSS for SFTP/SSH authorisation. Makes request to an HTTP/API endpoint to get a passwd entry. 
+The custom NSS for Linux (SFTP/SSH/FTP/etc.) authorisation. Makes request to an HTTP/API endpoint to get a passwd entry. 
 
 ### Compile and install
 ```shell
